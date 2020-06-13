@@ -6,7 +6,8 @@ namespace Walterlv.Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var demo = new HookDemo();
+            demo.AddHook();
         }
     }
 }
